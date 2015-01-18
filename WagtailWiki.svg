@@ -1,1 +1,13 @@
-<svg fill="white" stroke-width="1" stroke="gray" height="512" width="512"><rect height="512" width="512" y="0" x="0"></rect><g transform="translate(256,256)"><path fill="black" stroke="black" d="M240,0A240,240 0 0,0 -240,-2.939152317953648e-14L0,0Z"></path><path fill="white" stroke="gray" d="M240,0A240,240 0 0,1 -240,2.939152317953648e-14L0,0Z"></path></g><text fill="black" font-size="192px" font-family="Crimson Text" y="425" x="155">W</text></svg>
+<svg width="512" height="512" stroke="gray" stroke-width="1" fill="white">
+
+    <g transform="translate(256,256)">
+        <path d="M240,0A240,240 0 0,0 -240,-2.939152317953648e-14L0,0Z" stroke="black" fill="black"></path>
+        <path d="M240,0A240,240 0 0,1 -240,2.939152317953648e-14L0,0Z" stroke="gray" fill="white"></path>
+    </g>
+    <text x="155" y="425" font-family="Crimson Text" font-size="192px" fill="black">
+
+        W
+
+    </text>
+
+</svg>

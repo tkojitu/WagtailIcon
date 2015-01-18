@@ -19,14 +19,6 @@ function newSvg(dim) {
     .attr("fill", "white");
 }
 
-function appendRect(svg, dim) {
-  svg.append("rect")
-    .attr("x", 0)
-    .attr("y", 0)
-    .attr("width", dim.w)
-    .attr("height", dim.h);
-}
-
 function initCenter(svg, dim) {
   return svg.append("g")
     .attr("transform", "translate(" + (dim.w / 2) + "," + (dim.h / 2) + ")");
@@ -69,7 +61,6 @@ function appendLetter(owner, letter) {
 function onLoad() {
   var dim = getDimension();
   var svg = newSvg(dim);
-  appendRect(svg, dim);
   var center = initCenter(svg, dim);
   appendUpperHalf(center, dim);
   appendLowerHalf(center, dim);
