@@ -24,10 +24,12 @@ Androidアプリのアイコンをきれいにしたい。mspaintを使って描
 * テキストを保存する。拡張子は.svg。
 * Inkscapeで保存したファイルを開く。
 * 必要なサイズのビットマップにエクスポートする。拡張子は.png。
-  * 480 xxhdpi
-  * 320 xhdpi
-  * 240 hdpi
-  * 160 mdpi
+* res/の下に各サイズのdrawable-*を作り、作成したPNGファイルを移す。ファイル名はic_launcher.png。
+  * 480 drawable-xxhdpi
+  * 320 drawable-xhdpi
+  * 240 drawable-hdpi
+  * 160 drawable-mdpi
+  * drawableにはic_launcher.pngを用意しなくてもいい。
 
 d3.jsでSVGを描く
 ----
